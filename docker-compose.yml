@@ -1,0 +1,17 @@
+version: "3"
+
+services: 
+  backend: 
+    build: ./backend
+    command: yarn start
+    ports: 
+      - "4000:4000"
+    volumes: 
+      - ./backend:/usr/oowlish-test/backend
+  frontend:
+    build: ./frontend
+    command: yarn start
+    ports: 
+      - "3000:3000"
+    volumes: 
+      - ./frontend:/usr/oowlish-test/frontend

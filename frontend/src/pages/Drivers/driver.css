@@ -1,0 +1,23 @@
+.container{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-container{
+    padding: 10px;
+}
+
+.list-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    height: 15rem;
+}
