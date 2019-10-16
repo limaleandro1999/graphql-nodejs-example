@@ -1,6 +1,6 @@
-# Oowlish Node.js Engineer Test
+# GraphQL Example
 
-This repository contains all the code made to the Node.js Engineer's test. It was separated in two folders: 
+This repository contains an example of a GraphQL implementation with Node.js and React. It was separated in two folders: 
 
 * backend: has the GraphQL API implementation and its tests.
 * frontend: has a React.js Client that consumes data from the GraphQL API.
